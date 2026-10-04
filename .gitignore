@@ -2,3 +2,4 @@ input/
 generated/
 __pycache__/
 *.pyc
+lean/.lake/

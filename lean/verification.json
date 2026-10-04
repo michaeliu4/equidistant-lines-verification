@@ -1,0 +1,196 @@
+{
+  "schema_version": 2,
+  "scope": [
+    "Results.EightEquidistantLines.thm_1_1",
+    "Results.EightEquidistantLines.cor_1_2_upper"
+  ],
+  "excluded": [
+    "Seven-line existence",
+    "Cylinder reformulation",
+    "General at-least-five-lines version of the direction lemma",
+    "Catalogue classification and Python replay"
+  ],
+  "lean": "4.32.1",
+  "mathlib_revision": "520045ab14e26149ee970e2e617ca04b09bde5d6",
+  "proof_revision": "Coordinate proof of direction independence, 4 October 2026",
+  "baseline_private_commit": "b3da9c75451546c72845b58d74308222adb5f9ae",
+  "coordinate_private_commit": "42960e18435641d7e3f980cc448bff41ced47630",
+  "checks": {
+    "status": "PASS",
+    "runtime_exit_code": 0,
+    "build_exit_code": 0,
+    "statement_and_axiom_probe_exit_code": 0,
+    "fresh_kernel_replay_exit_code": 0,
+    "fresh_kernel_replay_seconds": 507.031,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "completed_utc": "2026-10-04T20:16:05.492048+00:00",
+    "sources_unchanged_during_check": true,
+    "production_comparator_audit": "pending; the predecessor audit does not cover this changed proof"
+  },
+  "proof_files": [
+    {
+      "path": "Results/EightEquidistantLines/Defs.lean",
+      "sha256": "1d7632a0801ac7f78ae8c2b58063c74d3b4f1abb7f8ae68d70d0abe6a0420a3a"
+    },
+    {
+      "path": "Results/EightEquidistantLines/DefsTest.lean",
+      "sha256": "90d9ab5b4285be28a57af543f01b2ab33961d3f10e460949984f638ed58d6a9b"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Bridge.lean",
+      "sha256": "d9e85cd6d06b929c25b54e23d6a4d2757c3f8c4d943fbf6fd6d18169016eea27"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Chart.lean",
+      "sha256": "8b96993a8bce0e4bd70187202f9440150349af50146efcc02d2458ac8a837a5a"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Circuit.lean",
+      "sha256": "6ecfc7b4175e6286a7a97bc4cba70c159a756a182d9f303ce6a4134295c3e7f3"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/CoordinateFrame.lean",
+      "sha256": "1eaee92dbca2dda19752f624ff93542ddd4a82687ba46041efd2adcd66764b2a"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/CoordinateObstruction.lean",
+      "sha256": "710c56e1233a771bfbcc2a5869a1fc620c913aea4a8bf167e67b1e82701d5516"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/CoordinateTriple.lean",
+      "sha256": "7c1897ce2175855480e90fa999e709d8f00708491f194a1a9948bec01dd0c082"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Family.lean",
+      "sha256": "11c8e9a8cfeefc1cb4022207b3626bac20e64b4dd32c42512b9668171e64bc0f"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KAct.lean",
+      "sha256": "fedb6c17e86e62acb1bdde9050ec2d644a91204e9bcce1d2e4d3884b974a09a5"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KChain.lean",
+      "sha256": "0a7b532f5d1cc26bef587b88f1497f43e8852eba90a74192a2efa41c2f504eaf"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KCheck/Base1.lean",
+      "sha256": "00923befe8a67dd5b52a9aaca7d58901c7b55702364aacc4296fa0bf11499a35"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KCheck/Base2.lean",
+      "sha256": "d073b9dc55003533649f12f240578b73fd60cd2ebffc3e39d9f8db08aec24846"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KCheck/Base3.lean",
+      "sha256": "2f5e3898a28b3dc9c7e88f21672f48d426679e5c05da5b8845e052c521f610a8"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KCheck/Base4.lean",
+      "sha256": "ac9277f017efd69fc6b3c432ead26549ed94239044574d7d236cf450d8a6fc1d"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KCheck/Base5.lean",
+      "sha256": "cb171ee1ab3694624a64de856384c8f70858915a4a2db03d68f4f29c05957fde"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KCheck/Base6a.lean",
+      "sha256": "c6e3e1356b2e4a990ce44518683575e6b19826c25ceed8627bc4e3a5a69d4a1d"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KCheck/Base6b.lean",
+      "sha256": "ea45fbc911fbe6a240b7d9cc6818fdb96e1d22670b5875290dc461cd3c313e58"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KCheck/Base7.lean",
+      "sha256": "1685e46bde6f8c899d812e4b7fb8a7971cb765dd1915979d5d744cc3ff087c8b"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KCheck/Levels.lean",
+      "sha256": "2e0b58c2f00f045b5b73bda66c4926bcf49e3945173ec36da1bc02a9c4461a96"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KComp.lean",
+      "sha256": "92cb74cd516ca4b48c7958946a36be15afdddd49fa2a26da3375f4e88c60ddb8"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KDfs.lean",
+      "sha256": "c9055bdb351becc9a38534d6aa2470d1b65b4d03e111a57a903012ff26497e58"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KEqn.lean",
+      "sha256": "43a4d708b9bd5791cb8a4b2a98a2c7178a798861d45ce6d3e40c7973633b4a15"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KFinal.lean",
+      "sha256": "490663243f0bf1b2d88fde4da2a053cb187bed27913111c9b4fa4947e15ed9d9"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KPack.lean",
+      "sha256": "de4e7e222509fdeef1bb97b34e264632164085f841bbf96d8e3cd6194901345d"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KSel.lean",
+      "sha256": "e58f519313e66ef46f33042b3cbd7a1fc30d671c564a9d742a7e56ebdae2f26f"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/KWit.lean",
+      "sha256": "ba293055009bea4abd00cb0e69b522f8588f6e060241da222a0a71671adaef67"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Kdata/Cols.lean",
+      "sha256": "952034f5c50bddb05043a781c9384d8de05afbebebc4df89caf3e51ed14afb9c"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Kdata/Insts.lean",
+      "sha256": "b0534e439a49c57dca9e1f7d2f6d18307af65120820e23e76dd1e91d96ba3630"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Kdata/Reps.lean",
+      "sha256": "0396489b78cdf50835ce005396767b7e3023788bb322d5dadd52f15c2a9db9b3"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Kdata/Rows.lean",
+      "sha256": "eb143d5f2e66067178373d36803b016e04931727026eff7050f4a56090b10075"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/LineDist.lean",
+      "sha256": "cd240c2ebf92f4802c161b239d91b11663de78715fc25a55588acc3d340a9000"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Main.lean",
+      "sha256": "b0cb49e14c9a126a944e0eaaab4849e145c43f5c1ea213f584646ca38a6aa29b"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/NoParallel.lean",
+      "sha256": "cd146bb6d1baa199c1e7fb5eaf80a078b14668dbecb0d0f7c26a5818ea9a7949"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Obstruction.lean",
+      "sha256": "d203d73f75183423e6c896709785b45f3f23b48d63bf549042735e9a3be11417"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Plucker.lean",
+      "sha256": "8b6768990ce181b590b8e1d800ead0370b7a12486d851cf23f5c621c0e30e68b"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Scaling.lean",
+      "sha256": "ed4ce9722d30ce10a9918106fe3a6e812887ff413f28a4c11c8464263d944639"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Signs.lean",
+      "sha256": "76d3aeebd50c710a69ea3c84f1f03fad5c1a017f0a47ebaf76a8ba6e17638f05"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Spec.lean",
+      "sha256": "cd59f727ac83eb5871f3e5d0ac7547997afb94a5d6461fce4dd242583862085c"
+    },
+    {
+      "path": "Results/EightEquidistantLines/Solution/Vec.lean",
+      "sha256": "24357bb197a4ad2c1e1778a67da60a94614f36cb46a45fe092ba9b95eccb2189"
+    }
+  ]
+}
