@@ -1,6 +1,6 @@
 # Eight lines in ℝ³ cannot have pairwise distance one
 
-This repository provides the paper's finite certificate replay and a Lean proof of its upper-bound theorem. The standalone Lean development is in [lean/](lean/README.md); it proves that no eight affine lines in R³ can have a common positive pairwise distance. The seven-line existence result is not formalized.
+This repository provides the paper's finite certificate replay and a Lean proof of its upper-bound theorem. The standalone Lean development is in [lean/](lean/README.md); it proves that no eight affine lines in R³ can have a common positive pairwise distance. The Lean development verifies the paper’s upper-bound results.
 
 ## Python certificate replay
 
